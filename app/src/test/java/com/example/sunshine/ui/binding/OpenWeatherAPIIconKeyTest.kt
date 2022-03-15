@@ -4,7 +4,7 @@ import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 
-class APIIconKeyTest {
+class OpenWeatherAPIIconKeyTest {
 
     private lateinit var validCodes: Set<String>
     private lateinit var invalidIconCodeDouble: String
