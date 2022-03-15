@@ -4,9 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_cloudy.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/ic_weather_cloudy_large.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/ic_weather_cloudy_night.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_cloudy_night_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_cloudy_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_moon.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_moon_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_partly_sunny.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_partly_sunny_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_rainy.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_rainy_2.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_rainy_2_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_rainy_small.xml" value="0.127" />
         <entry key="app/src/main/res/drawable/ic_weather_stormy.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_stormy_small.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_sunny.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_sunny_small.xml" value="0.127" />
       </map>
     </option>
   </component>
