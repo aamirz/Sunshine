@@ -1,6 +1,7 @@
-package com.example.sunshine.ui.binding
+package com.example.sunshine.ui.utils
 
 import com.example.sunshine.R
+import com.example.sunshine.models.OpenWeatherImpl.OpenWeatherAPIIconKey
 import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
