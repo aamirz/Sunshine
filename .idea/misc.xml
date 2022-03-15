@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_cloudy_large.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_cloudy_night.xml" value="0.127" />
+        <entry key="app/src/main/res/drawable/ic_weather_stormy.xml" value="0.127" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
