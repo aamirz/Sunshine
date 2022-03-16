@@ -11,5 +11,4 @@ import com.example.sunshine.models.APIIconKey
  */
 interface IconMapper {
     fun getIcon(apiIconKey: APIIconKey): Int
-    fun getSmallIcon(apiIconKey: APIIconKey): Int
 }

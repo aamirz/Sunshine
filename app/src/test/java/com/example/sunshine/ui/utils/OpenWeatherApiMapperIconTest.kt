@@ -9,13 +9,6 @@ import kotlin.properties.Delegates
 
 class OpenWeatherApiMapperIconTest {
 
-    private var smallNightCloudyIcon by Delegates.notNull<Int>()
-    private var smallCloudyIcon by Delegates.notNull<Int>()
-    private var smallMoonIcon by Delegates.notNull<Int>()
-    private var smallSunnyIcon by Delegates.notNull<Int>()
-    private var smallRainy2Icon by Delegates.notNull<Int>()
-    private var smallRainyIcon by Delegates.notNull<Int>()
-    private var smallStormyIcon by Delegates.notNull<Int>()
     private var nightCloudyIcon by Delegates.notNull<Int>()
     private lateinit var nightCloudyCode: OpenWeatherAPIIconKey
     private var cloudyIcon by Delegates.notNull<Int>()
@@ -65,17 +58,6 @@ class OpenWeatherApiMapperIconTest {
         nightCloudyIcon = R.drawable.ic_weather_cloudy_night
         //endregion
 
-        //region valid small icons
-        smallStormyIcon = R.drawable.ic_weather_stormy_small
-        smallRainyIcon = R.drawable.ic_weather_rainy_small
-        smallRainy2Icon = R.drawable.ic_weather_rainy_2_small
-        smallSunnyIcon = R.drawable.ic_weather_sunny_small
-        smallMoonIcon = R.drawable.ic_weather_moon_small
-        smallCloudyIcon = R.drawable.ic_weather_cloudy_small
-        smallNightCloudyIcon = R.drawable.ic_weather_cloudy_night_small
-        //endregion
-
-
     }
 
     //region Icon Tests
@@ -97,26 +79,4 @@ class OpenWeatherApiMapperIconTest {
         assertEquals(nightCloudyIcon, mapper.getIcon(nightCloudyCode))
     }
     //endregion
-
-    //region Small Icon Tests
-    @Test
-    fun invalidKeyProducesDefaultSmallIcon() {
-        assertEquals(defaultIcon, mapper.getIcon(invalidKey))
-    }
-
-    @Test
-    fun getSmallIconProducesValidIcons() {
-        assertEquals(smallStormyIcon, mapper.getSmallIcon(stormyCode))
-        assertEquals(smallRainyIcon, mapper.getSmallIcon(rainyCode))
-        assertEquals(smallRainy2Icon, mapper.getSmallIcon(rainy2CodeA))
-        assertEquals(smallRainy2Icon, mapper.getSmallIcon(rainy2CodeB))
-        assertEquals(smallSunnyIcon, mapper.getSmallIcon(sunnyCodeA))
-        assertEquals(smallSunnyIcon, mapper.getSmallIcon(sunnyCodeB))
-        assertEquals(smallMoonIcon, mapper.getSmallIcon(moonCode))
-        assertEquals(smallCloudyIcon, mapper.getSmallIcon(cloudyCode))
-        assertEquals(smallNightCloudyIcon, mapper.getSmallIcon(nightCloudyCode))
-    }
-
-    //endregion
-
 }
