@@ -14,5 +14,5 @@ private val validCodes = setOf(
     "02n"
 )
 
-class OpenWeatherAPIIconKey(inputKeyValue: String) : APIIconKey(inputKeyValue = inputKeyValue,
+class OpenWeatherAPIIconKey(inputKeyValue: String = validCodes.first()) : APIIconKey(inputKeyValue = inputKeyValue,
     validCodes = validCodes)
