@@ -14,7 +14,6 @@ import com.example.sunshine.ui.theme.Gray8E9
 fun WeatherDividerLine() {
     Row(
         modifier = Modifier.fillMaxWidth()
-            .padding(horizontal = 8.dp)
     ) {
         Divider(
             modifier = Modifier.fillMaxWidth(),

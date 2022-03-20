@@ -8,6 +8,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.sunshine.ui.weather.ForecastTitle
 import com.example.sunshine.ui.weather.FutureWeatherList
+import com.example.sunshine.ui.weather.HeadingSpace
 import com.example.sunshine.ui.weather.TodayWeatherHeading
 
 @Composable
@@ -19,20 +20,12 @@ fun PageContent() {
     ) {
         TodayWeatherHeading()
         Column(modifier = Modifier.fillMaxWidth()
-            .padding(horizontal = 4.dp)) {
+            .padding(horizontal = 16.dp)) {
             HeadingSpace()
             ForecastTitle()
-            HeadingSpace()
             FutureWeatherList()
         }
     }
-}
-
-@Composable
-fun HeadingSpace() {
-   Spacer(modifier = Modifier
-       .height(16.dp)
-       .fillMaxWidth())
 }
 
 @Preview

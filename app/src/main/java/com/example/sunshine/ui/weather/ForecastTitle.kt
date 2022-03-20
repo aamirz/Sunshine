@@ -22,8 +22,7 @@ fun ForecastTitle(titleText: String = "10-Day Forecast") {
         Font(R.font.open_sans_bold),
     )
     Row(horizontalArrangement = Arrangement.Start,
-        modifier = Modifier.fillMaxWidth()
-            .padding(start = 8.dp)) {
+        modifier = Modifier.fillMaxWidth()) {
         Text(
             titleText,
             fontSize = 16.sp,
