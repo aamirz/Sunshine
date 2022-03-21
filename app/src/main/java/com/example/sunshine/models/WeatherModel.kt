@@ -1,5 +1,7 @@
 package com.example.sunshine.models
 
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
 import com.example.sunshine.models.OpenWeatherImpl.OpenWeatherAPIIconKey
 
 data class WeatherModel(val day: String = "Saturday",
@@ -10,4 +12,6 @@ data class WeatherModel(val day: String = "Saturday",
                         val wind: String = "Wind: 2 km/h NW",
                         val highTemperature: String = "70",
                         val lowTemperature: String = "56"
-)
+) {
+   val cardState: MutableState<CardState> = mutableStateOf(CardState.Collapsed)
+}

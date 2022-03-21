@@ -11,10 +11,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.sunshine.R
+import com.example.sunshine.models.OpenWeatherImpl.OpenWeatherAPIIconKey
 import com.example.sunshine.models.WeatherModel
 
 @Composable
 fun FutureWeatherList() {
+    // todo pass in real data
     val models = mutableListOf<WeatherModel>()
     for (i in 0 until 10) {
         models.add(WeatherModel())
@@ -34,7 +37,16 @@ fun FutureWeatherList() {
                 WeatherDividerLine()
             }
         }
+
+        item() {
+            EmptyCard()
+        }
     }
+}
+
+@Composable
+private fun EmptyCard() {
+   Spacer(modifier = Modifier.fillMaxWidth().height(80.dp))
 }
 
 @Composable

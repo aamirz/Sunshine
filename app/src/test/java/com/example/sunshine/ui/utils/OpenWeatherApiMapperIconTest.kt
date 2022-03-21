@@ -31,7 +31,7 @@ class OpenWeatherApiMapperIconTest {
 
     @Before
     fun setup() {
-        mapper = OpenWeatherIconMapper()
+        mapper = OpenWeatherIconMapper
         val invalidCode = "aaaaa"
         invalidKey = OpenWeatherAPIIconKey(invalidCode)
         defaultIcon = R.drawable.ic_launcher_background

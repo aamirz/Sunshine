@@ -7,7 +7,7 @@ import com.example.sunshine.models.APIIconKey
  * The OpenWeatherIconMapper provides icon bindings
  * for the open weather map API.
  */
-class OpenWeatherIconMapper: IconMapper {
+object OpenWeatherIconMapper: IconMapper {
 
     //region Private Properties
     private val iconMap = mapOf(
