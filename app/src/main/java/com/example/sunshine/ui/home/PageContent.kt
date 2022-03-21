@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.sunshine.R
-import com.example.sunshine.models.WeatherModel
+import com.example.sunshine.model.WeatherModel
 import com.example.sunshine.ui.weather.*
 
 @OptIn(ExperimentalFoundationApi::class)

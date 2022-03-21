@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.res.dimensionResource
 import com.example.sunshine.R
-import com.example.sunshine.models.CardState
-import com.example.sunshine.models.WeatherModel
+import com.example.sunshine.model.CardState
+import com.example.sunshine.model.WeatherModel
 import com.example.sunshine.ui.weather.WeatherCard.*
 
 @OptIn(ExperimentalAnimationApi::class, androidx.compose.material.ExperimentalMaterialApi::class)

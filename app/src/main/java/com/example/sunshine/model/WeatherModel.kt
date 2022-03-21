@@ -1,8 +1,8 @@
-package com.example.sunshine.models
+package com.example.sunshine.model
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
-import com.example.sunshine.models.OpenWeatherImpl.OpenWeatherAPIIconKey
+import com.example.sunshine.model.OpenWeatherImpl.OpenWeatherAPIIconKey
 
 data class WeatherModel(val day: String = "Saturday",
                         val weather: String = "Cloudy",

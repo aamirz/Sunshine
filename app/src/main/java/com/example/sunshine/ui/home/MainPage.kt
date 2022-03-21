@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TileMode
 import androidx.compose.ui.unit.dp
-import com.example.sunshine.models.WeatherModel
+import com.example.sunshine.model.WeatherModel
 import com.example.sunshine.ui.theme.BlueGradientDark
 import com.example.sunshine.ui.theme.BlueGradientLight
 

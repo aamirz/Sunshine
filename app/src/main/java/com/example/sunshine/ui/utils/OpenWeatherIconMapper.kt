@@ -1,7 +1,7 @@
 package com.example.sunshine.ui.utils
 
 import com.example.sunshine.R
-import com.example.sunshine.models.APIIconKey
+import com.example.sunshine.model.APIIconKey
 
 /**
  * The OpenWeatherIconMapper provides icon bindings

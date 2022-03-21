@@ -1,4 +1,4 @@
-package com.example.sunshine.models
+package com.example.sunshine.model
 
 /**
  * The APIIconKey class generates a valid apiKey if it a valid key.

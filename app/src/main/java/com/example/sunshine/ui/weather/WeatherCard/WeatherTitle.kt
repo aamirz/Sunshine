@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.sunshine.models.CardState
-import com.example.sunshine.models.WeatherModel
+import com.example.sunshine.model.CardState
+import com.example.sunshine.model.WeatherModel
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable

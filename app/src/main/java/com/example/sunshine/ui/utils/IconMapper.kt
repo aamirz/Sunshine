@@ -1,6 +1,6 @@
 package com.example.sunshine.ui.utils
 
-import com.example.sunshine.models.APIIconKey
+import com.example.sunshine.model.APIIconKey
 
 /**
  * This IconMapper interface provides drawable bindings for

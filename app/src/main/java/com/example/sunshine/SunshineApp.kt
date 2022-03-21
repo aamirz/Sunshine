@@ -1,18 +1,15 @@
 package com.example.sunshine
 
 import androidx.compose.runtime.Composable
-import com.example.sunshine.models.WeatherModel
+import androidx.compose.runtime.State
+import com.example.sunshine.model.WeatherModel
 import com.example.sunshine.ui.home.MainPage
 import com.example.sunshine.ui.theme.SunshineTheme
 
 @Composable
-fun SunshineApp() {
-    val models = mutableListOf<WeatherModel>()
-    for (i in 0 until 10) {
-        models.add(WeatherModel())
-    }
+fun SunshineApp(weatherModels: List<WeatherModel>) {
  SunshineTheme {
-     MainPage(models)
+     MainPage(weatherModels)
  }
 }
 

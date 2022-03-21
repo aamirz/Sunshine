@@ -1,4 +1,4 @@
-package com.example.sunshine.models
+package com.example.sunshine.model
 
 /**
  * The state that a card can be in, collapsed or expanded.

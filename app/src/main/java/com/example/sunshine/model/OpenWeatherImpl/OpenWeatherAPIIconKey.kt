@@ -1,6 +1,6 @@
-package com.example.sunshine.models.OpenWeatherImpl
+package com.example.sunshine.model.OpenWeatherImpl
 
-import com.example.sunshine.models.APIIconKey
+import com.example.sunshine.model.APIIconKey
 
 private val validCodes = setOf(
     "11d",

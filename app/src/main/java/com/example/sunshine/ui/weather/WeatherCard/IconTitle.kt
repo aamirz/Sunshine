@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import com.example.sunshine.R
-import com.example.sunshine.models.WeatherModel
+import com.example.sunshine.model.WeatherModel
 
 @Composable
 fun IconTitle(model: WeatherModel) {
