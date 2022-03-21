@@ -17,12 +17,12 @@ fun WeatherDividerLine() {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = dimensionResource(id = R.dimen.forecast_content_horizontal_padding))
+            .padding(horizontal = dimensionResource(id = R.dimen.forecast_padding_large))
     ) {
         Divider(
             modifier = Modifier.fillMaxWidth(),
             color = Gray8E9,
-            thickness = 1.dp,
+            thickness = dimensionResource(id = R.dimen.forecast_divider_line_thickness),
         )
     }
 }

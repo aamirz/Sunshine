@@ -19,6 +19,7 @@ import com.example.sunshine.ui.theme.BlueGradientLight
 fun TodayWeatherHeading() {
     Row(
         modifier = Modifier.fillMaxWidth()
+                // todo remove fake height
             .height(150.dp)
             .background(
                 brush = Brush.horizontalGradient(

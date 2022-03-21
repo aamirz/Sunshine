@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <dimen name="forecast_content_horizontal_padding" tools:ignore="MissingDefaultResource">16dp</dimen>
+<resources>
+    <dimen name="forecast_padding_small">4dp</dimen>
+    <dimen name="forecast_padding_medium">8dp</dimen>
+    <dimen name="forecast_padding_large">16dp</dimen>
+    <dimen name="forecast_divider_line_thickness">1dp</dimen>
+    <dimen name="weather_card_horizontal_padding">20dp</dimen>
+    <dimen name="weather_card_icon_size">32dp</dimen>
+    <dimen name="weather_card_empty_height">80dp</dimen>
 </resources>

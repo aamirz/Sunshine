@@ -17,13 +17,13 @@ import com.example.sunshine.ui.theme.BlueGradientDark
 import com.example.sunshine.ui.theme.BlueGradientLight
 
 @Composable
-fun MainPage() {
+fun MainPage(models: List<WeatherModel>) {
     Scaffold(
         topBar = {
             TopSunshineBar()
 
         }
     ) {
-        PageContent()
+        PageContent(models)
     }
 }

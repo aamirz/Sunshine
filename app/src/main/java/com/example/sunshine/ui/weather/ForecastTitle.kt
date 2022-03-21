@@ -13,7 +13,6 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.sunshine.R
 import com.example.sunshine.ui.theme.Blue034
@@ -27,7 +26,7 @@ fun ForecastTitle(titleText: String = "10-Day Forecast") {
         modifier = Modifier
             .fillMaxWidth()
             .background(Color.White)
-            .padding(horizontal = dimensionResource(id = R.dimen.forecast_content_horizontal_padding ))
+            .padding(horizontal = dimensionResource(id = R.dimen.forecast_padding_large))
     ) {
         Text(
             titleText,
