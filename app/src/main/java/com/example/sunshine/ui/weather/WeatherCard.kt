@@ -12,7 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
+import com.example.sunshine.R
 import com.example.sunshine.models.CardState
 import com.example.sunshine.models.OpenWeatherImpl.OpenWeatherAPIIconKey
 import com.example.sunshine.models.WeatherModel
@@ -29,7 +31,7 @@ fun WeatherCard(model: WeatherModel) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 4.dp),
+                .padding(horizontal = 4.dp + dimensionResource(id = R.dimen.forecast_content_horizontal_padding)),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             IconTitle(model)
