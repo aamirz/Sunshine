@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.sunshine.data.impl.StubWeatherRepository
 import com.example.sunshine.data.WeatherRepository
+import com.example.sunshine.data.impl.OpenAPIWeatherRepository
 import com.example.sunshine.model.WeatherModel
 import kotlinx.coroutines.launch
 
@@ -18,7 +19,7 @@ class ForecastViewModel: ViewModel() {
         return _weatherModels
     }
 
-    private val weatherRepository: WeatherRepository = StubWeatherRepository()
+    private val weatherRepository: WeatherRepository = OpenAPIWeatherRepository()
 
     fun loadWeather() {
         viewModelScope.launch {

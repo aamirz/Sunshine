@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.sunshine.ui.utils.toDegreeString
 
 @Composable
 fun CardTemperature(highTemp: String, lowTemp: String) {
@@ -13,7 +12,7 @@ fun CardTemperature(highTemp: String, lowTemp: String) {
         Column {
             DailyHighText(highTemperature = highTemp)
             TextHorizontalSpace()
-            WeatherInfoText(text = lowTemp.toDegreeString())
+            WeatherInfoText(text = lowTemp)
         }
     }
 }

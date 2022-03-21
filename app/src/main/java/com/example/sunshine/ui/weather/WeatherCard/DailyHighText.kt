@@ -11,7 +11,7 @@ import com.example.sunshine.ui.utils.toDegreeString
 
 @Composable
 fun DailyHighText(highTemperature: String) {
-    Text(text = highTemperature.toDegreeString(),
+    Text(text = highTemperature,
         fontFamily = openSansRegular(),
         fontWeight = FontWeight.Normal,
         color = Blue034,
@@ -22,6 +22,6 @@ fun DailyHighText(highTemperature: String) {
 @Preview
 @Composable
 fun PreviewDailyHighText() {
-    DailyHighText(highTemperature = "7")
+    DailyHighText(highTemperature = "7".toDegreeString())
     
 }
