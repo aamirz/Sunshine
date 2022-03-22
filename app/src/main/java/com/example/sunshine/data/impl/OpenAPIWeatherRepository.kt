@@ -17,6 +17,7 @@ class OpenAPIWeatherRepository: WeatherRepository {
     private val weatherAPI: WeatherApi = RetrofitHelper.getInstance().create(WeatherApi::class.java)
 
     // for now fail silently
+    // todo handle network error gracefully by showin an alert dialog
     override suspend fun getWeather(): List<WeatherModel> {
         return withContext(Dispatchers.IO) {
             val result = weatherAPI.getForecast()

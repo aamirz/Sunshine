@@ -11,7 +11,11 @@ private val validCodes = setOf(
     "01d",
     "01n",
     "02d",
-    "02n"
+    "02n",
+    "04d",
+    "04n",
+    "03d",
+    "03n"
 )
 
 class OpenWeatherAPIIconKey(inputKeyValue: String = validCodes.first()) : APIIconKey(inputKeyValue = inputKeyValue,

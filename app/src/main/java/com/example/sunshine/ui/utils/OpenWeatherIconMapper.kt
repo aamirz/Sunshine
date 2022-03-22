@@ -18,8 +18,12 @@ object OpenWeatherIconMapper: IconMapper {
         "50d" to R.drawable.ic_weather_sunny,
         "01d" to R.drawable.ic_weather_sunny,
         "01n" to R.drawable.ic_weather_moon,
-        "02d" to R.drawable.ic_weather_cloudy,
-        "02n" to R.drawable.ic_weather_cloudy_night
+        "02d" to R.drawable.ic_weather_partly_sunny,
+        "02n" to R.drawable.ic_weather_cloudy_night,
+        "04d" to R.drawable.ic_weather_cloudy,
+        "04n" to R.drawable.ic_weather_cloudy_night,
+        "03d" to R.drawable.ic_weather_cloudy,
+        "03n" to R.drawable.ic_weather_cloudy_night
     )
 
     //endregion
